@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>JQUERY-Ajax Task</title>
+</head>
+<body>
+    
+    <div id="header">
+
+        <h1>Searching Countries</h1>
+        <button onclick="ajaxRequest()">Get Countries</button><br>
+        <input type="text" id="searchCountry">
+        <button onclick="search()">Search</button> <br> <br>
+
+    </div>
+
+    <div id="displayHeaderInfo">
+
+    </div>
+    <table class="showInTable">
+        <thead>
+            <tr>
+                <th>Country Name </th>
+                <th>Number Of Citizens </th>
+                <th>Region </th>
+            </tr>
+        </thead>
+        <tbody id="displayTable">
+
+        </tbody>
+    </table>
+    
+
+    <table class="showInTableRegion">
+        <thead>
+            <tr>
+                <th> Rgion | </th>
+                <th> How many </th>
+            </tr>
+        </thead>
+    <tbody id="showDetailesRegion">
+        
+    </tbody>
+    </table>
+
+</body>
+</html>
